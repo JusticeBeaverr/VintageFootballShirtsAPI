@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  vintagefootballshirts:
+    image: ${DOCKER_REGISTRY-}vintagefootballshirts
+    build:
+      context: .
+      dockerfile: Dockerfile
