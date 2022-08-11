@@ -2,7 +2,7 @@
 
 namespace VintageFootballShirts.Infrastructure.Mongo.Document
 {
-    public class ShirtRespones
+    public class ShirtResponse
     {
         /// <summary>
         /// Shirt Id
