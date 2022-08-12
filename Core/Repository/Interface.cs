@@ -10,5 +10,6 @@ namespace VintageFootballShirts.Core.Repository
         public Task<List<ShirtResponse>> GetAsync();
         public Task<List<ShirtResponseDto>> GetAllAsync();
         public Task<bool> CheckShirtId(int shirtId);
+        
     }
 }
